@@ -46,8 +46,8 @@ public class StepDefination {
 	@Then("the API Call is success with status code {int}")
 	public void the_API_Call_is_success_with_status_code(Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
-	    
-		throw new cucumber.api.PendingException();
+	 
+		
 	}
 
 
