@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17416" started-at="2020-07-19T06:37:47 PKT" finished-at="2020-07-19T06:38:04 PKT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17416" started-at="2020-07-19T06:37:47 PKT" finished-at="2020-07-19T06:38:04 PKT">
+      <class name="TestNG.PetStoreSmokeTestNG.smokeSuite">
+        <test-method status="PASS" signature="AddPet()[pri:0, instance:TestNG.PetStoreSmokeTestNG.smokeSuite@6ebc05a6]" name="AddPet" duration-ms="6370" started-at="2020-07-19T06:37:47 PKT" finished-at="2020-07-19T06:37:53 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPet -->
+        <test-method status="PASS" signature="FindPet()[pri:1, instance:TestNG.PetStoreSmokeTestNG.smokeSuite@6ebc05a6]" name="FindPet" duration-ms="2989" started-at="2020-07-19T06:37:53 PKT" depends-on-methods="TestNG.PetStoreSmokeTestNG.smokeSuite.AddPet" finished-at="2020-07-19T06:37:56 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPet -->
+        <test-method status="PASS" signature="UpdatePet()[pri:2, instance:TestNG.PetStoreSmokeTestNG.smokeSuite@6ebc05a6]" name="UpdatePet" duration-ms="2334" started-at="2020-07-19T06:37:56 PKT" depends-on-methods="TestNG.PetStoreSmokeTestNG.smokeSuite.FindPet" finished-at="2020-07-19T06:37:58 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePet -->
+        <test-method status="PASS" signature="VerifyPetUpdate()[pri:3, instance:TestNG.PetStoreSmokeTestNG.smokeSuite@6ebc05a6]" name="VerifyPetUpdate" duration-ms="2850" started-at="2020-07-19T06:37:58 PKT" depends-on-methods="TestNG.PetStoreSmokeTestNG.smokeSuite.UpdatePet" finished-at="2020-07-19T06:38:01 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPetUpdate -->
+        <test-method status="PASS" signature="DeletePet()[pri:4, instance:TestNG.PetStoreSmokeTestNG.smokeSuite@6ebc05a6]" name="DeletePet" duration-ms="1323" started-at="2020-07-19T06:38:01 PKT" depends-on-methods="TestNG.PetStoreSmokeTestNG.smokeSuite.AddPet" finished-at="2020-07-19T06:38:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePet -->
+        <test-method status="PASS" signature="VerifyPetDelete()[pri:5, instance:TestNG.PetStoreSmokeTestNG.smokeSuite@6ebc05a6]" name="VerifyPetDelete" duration-ms="1437" started-at="2020-07-19T06:38:03 PKT" depends-on-methods="TestNG.PetStoreSmokeTestNG.smokeSuite.DeletePet" finished-at="2020-07-19T06:38:04 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPetDelete -->
+      </class> <!-- TestNG.PetStoreSmokeTestNG.smokeSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
